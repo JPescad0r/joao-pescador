@@ -1,0 +1,61 @@
+
+table{
+    width: 90%;
+    background-color: background;
+    border: solid #7a86eb 5px;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+*{
+    margin: 0 auto;
+}
+th{
+    background-color: #7a86eb;
+    color: white;
+    text-align: left;
+    padding: 5px 10px;
+}
+td{
+    border: solid #7a86eb;
+    padding: 5px 10px;
+}
+
+td a{
+     text-decoration: none;
+     color: black;
+}
+td a:hover {
+    color: #7a86eb;
+}
+form{
+    margin-top: 50px;
+    margin-left: 500px;
+    padding: 10px;
+    width: 50%;
+    background-color: background;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight:  bold;
+
+    
+}
+form input{
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: solid #7a86eb 2px;
+   display: block;
+   align-items: center;
+}
+div input{
+    
+   font-family: monospace;
+   font-size: 18px;
+   color: #7a86eb;
+   background: none;
+   border: solid #7a86eb 2px;
+   margin-top: 30px;
+
+}

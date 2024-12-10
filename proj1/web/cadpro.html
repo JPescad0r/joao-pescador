@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de produtos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="css/tabela.css"/>
+           <link rel="icon" href="img/casa045.png"/>
+    </head>
+    <body>
+        <form method="post" action="salvar_produtos.jsp">
+            <p>
+                <label for="codigo">Código:</label>
+                <input type="number" name="codigo" id="codigo">
+            </p>
+            <p>
+                <label for="nome">Nome do produto:</label>
+                <input type="text" name="nome" id="nome" size="70">
+            </p>  
+            <p>
+                <label for="marca">Marca:</label>
+                <input type="text" name="marca" id="marca">
+            </p> 
+            <p>
+                <label for="preco">Preço:</label>
+                <input type="number" step="0.1" name="preco" id="preco">
+            </p>   
+            
+            <div>
+            <p>
+                <input type="submit" value="Salvar">   
+            </p>
+            </div>
+        </form>    
+    </body>
+</html>
